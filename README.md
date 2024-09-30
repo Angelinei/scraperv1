@@ -8,13 +8,13 @@ Disclaimer : I'm workin' on Windows I let you the file (you need to do first in 
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 
-# Automatically download and set up ChromeDriver
+#Automatically download and set up ChromeDriver
 driver = webdriver.Chrome(ChromeDriverManager().install())
 
-# Open Google.com - Exemple
+#Open Google.com - Exemple
 driver.get("https://www.google.com")
 
-# Close the browser
+#Close the browser
 driver.quit()
 
 So adapt to the OS you working with
